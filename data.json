@@ -1,6 +1,6 @@
 [{
         "id": "202205230001",
-        "hidden": "true",
+        "hidden": false,
         "type": "test",
         "date": "2022-05-23",
         "author": "ryantsui1109",
@@ -9,7 +9,7 @@
     },
     {
         "id": "202205230002",
-        "hidden": "true",
+        "hidden": false,
         "type": "test",
         "date": "2022-05-23",
         "author": "ryantsui1109",
@@ -18,7 +18,7 @@
     },
     {
         "id": "202205230003",
-        "hidden": "true",
+        "hidden": false,
         "type": "test",
         "date": "2022-05-23",
         "author": "ryantsui1109",
