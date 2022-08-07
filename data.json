@@ -317,5 +317,32 @@
             10,
             11
         ]
+    },
+    {
+        "id": "202208070001",
+        "hidden": false,
+        "date": "2022-08-07",
+        "author": "ryantsui1109",
+        "title": "#Re:從零開始的刷機生活 05",
+        "tags": [
+            "Re:從零開始的刷機生活"
+        ],
+        "content": [
+            "關於安卓的啟動流程",
+            "",
+            "機器通電>CPU\\硬體設備初始化>啟動bootloader，通常為fastboot>從boot_a或_b分區（依照當時的設定）解壓縮內核（kernel）和ramdisk並掛載>ramdisk初始化硬體設備並依照fstab掛載分區（如system vendor data cache等）>啟動Android系統",
+            "",
+            "關於SAR（system-as-root），顧名思義，即將system分區直接掛載為根目錄（treble/GSI需要此種模式），而非SAR的裝置中，system分區儘包含/system下的目錄",
+            "",
+            "ramdisk：記憶體中的硬碟，將檔案系統初始化於記憶體（RAM）中，在安卓中作為小型根目錄，用作啟動時初始化系統，通常是tar.gz（打包成tar再以gz壓縮）格式或cpio格式，在安卓中ramdisk也用於recovery模式的檔案系統（AB分區中recovery分區取消，併入boot分區，故AB分區的boot中的ramdisk同時包含啟動用和recovery用的檔案），安裝第三方recovery的方式也從刷入recovery分區變成了修補ramdisk",
+            "",
+            "部分機型無ramdisk步驟，啟動時直接掛載system分區"
+        ],
+        "summary": [
+            0,
+            2,
+            4,
+            6
+        ]
     }
 ]
