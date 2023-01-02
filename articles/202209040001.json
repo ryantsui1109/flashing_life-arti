@@ -1,30 +1,32 @@
-[{
-    "id": "202209040001",
-    "hidden": false,
-    "date": "2022-09-04",
-    "author": "ryantsui1109",
-    "title": "Re:從零開始的刷機生活 09-關於 GSI 的安裝",
-    "tags": [
-        "Re:從零開始的刷機生活"
-    ],
-    "content": [
-        "下載下來的檔案，請解壓縮，找到system.img",
-        "",
-        "方法一——使用 EAF 安裝：",
-        "手機進入 fastboot mode，開啟EAF，找到“將鏡像檔刷入分區”，點選 system，找到 system.img，點擊開始，完成後重啟",
-        "",
-        "方法二——使用 fastboot 指令式工具安裝：",
-        "在 cmd 或終端機中輸入 fastboot flash system system.img 等待完成即可",
-        "",
-        "方法三——使用第三方 recovery 刷入：",
-        "將 system.img 放入外接儲存裝置（SD卡或USB隨身碟等），手機進入第三方recovery（TWRP, OFRP等），選擇鏡像檔，安裝至 system分區",
-        "",
-        "部分 GSI 有自己的 patch ，此時建議使用第三方 recovery 安裝，避免不開機"
-    ],
-    "summary": [
-        0,
-        2,
-        3,
-        5
-    ]
-}]
+[
+    {
+        "id": "202209040001",
+        "hidden": false,
+        "date": "2022-09-04",
+        "author": "ryantsui1109",
+        "title": "Re:從零開始的刷機生活 09-關於 GSI 的安裝",
+        "tags": [
+            "Re:從零開始的刷機生活"
+        ],
+        "content": [
+            "下載下來的檔案，請解壓縮，找到system.img",
+            "",
+            "方法一——使用 EAF 安裝：",
+            "手機進入 fastboot mode，開啟EAF，找到“將鏡像檔刷入分區”，點選 system，找到 system.img，點擊開始，完成後重啟",
+            "",
+            "方法二——使用 fastboot 指令式工具安裝：",
+            "在 cmd 或終端機中輸入 fastboot flash system system.img 等待完成即可",
+            "",
+            "方法三——使用第三方 recovery 刷入：",
+            "將 system.img 放入外接儲存裝置（SD卡或USB隨身碟等），手機進入第三方recovery（TWRP, OFRP等），選擇鏡像檔，安裝至 system分區",
+            "",
+            "部分 GSI 有自己的 patch ，此時建議使用第三方 recovery 安裝，避免不開機"
+        ],
+        "summary": [
+            0,
+            2,
+            3,
+            5
+        ]
+    }
+]
