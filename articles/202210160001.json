@@ -1,0 +1,48 @@
+[
+    {
+        "id": "202210160001",
+        "hidden": false,
+        "date": "2022-10-16",
+        "author": "ryantsui1109",
+        "title": "Re:從零開始的刷機生活 10 - Magisk 模組 - Uperf",
+        "tags": [
+            "Re:從零開始的刷機生活"
+        ],
+        "content": [
+            "Uperf 是一個性能調度模組，由於在Native層（以C艹實現），不依賴Java，因此不受安卓系統的限制，任何硬體、原生安卓、定制安卓皆可使用",
+            "",
+            "安裝：",
+            "到 https://github.com/yc9559/uperf/releases 下載最新版本即可（可能為Pre-release）",
+            "",
+            "使用方法：",
+            "",
+            "預設有四種調度模式可選：",
+            "",
+            "auto根据正在使用的App进行动态响应",
+            "",
+            "balance均衡模式，比原厂略流畅的同时略省电",
+            "",
+            "powersave卡顿模式，保证基本流畅的同时尽可能降低功耗",
+            "",
+            "performance费电模式，保证费电的同时多一点流畅度",
+            "",
+            "fast性能模式，相对于均衡模式更加激进",
+            "（於Uperf的Github Repo複製）",
+            "",
+            "將 /sdcard/Android/yc/uperf/cur_powermode.txt 修改為對應的模式後開機會自動套用",
+            "",
+            "或在終端機中輸入",
+            "sh /data/powercfg.sh <欲切換的模式>，免重啟立即生效，但是重啟後會套用 /sdcard/Android/yc/uperf/cur_powermode.txt 中的模式"
+        ],
+        "summary": [
+            0,
+            2,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13
+        ]
+    }
+]
