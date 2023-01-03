@@ -1,0 +1,48 @@
+[
+    {
+        "id": "202207110002",
+        "hidden": false,
+        "date": "2022-07-11",
+        "author": "ryantsui1109",
+        "title": "[自製]Easy ADB and fastboot v1.5.2——一個圖形化的ADB和fastboot管理器",
+        "tags": [
+            "EAF"
+        ],
+        "content": [
+            "[自製]Easy ADB and fastboot v1.5.2——一個圖形化的ADB和fastboot管理器",
+            "載點（僅64位Windows7+）：",
+            "https://drive.google.com/drive/folders/1O6jG5cf7q9ETMmEWZ0ncFNUtWX0-COZf?usp=sharing",
+            "本次更新：",
+            "後台更新：",
+            "支援同時對多台裝置操作",
+            "優化自動更新裝置邏輯",
+            "多語言邏輯更新",
+            "UI更新：",
+            "多裝置選單",
+            "實現即時打印log（非執行完後一次吐出）",
+            "檔案選擇器指定檔案類型",
+            "食用方法：",
+            "下載最新版解壓縮，雙擊執行Easy ADB and fastboot.exe即可",
+            "特色：",
+            "全圖形化界面，從此擺脫手打指令、切換資料夾的痛苦",
+            "包含常用的ADB和fastboot指令，如刷入鏡像、免刷入啟動鏡像、擦除分區、oem指令、一鍵切換A/B槽",
+            "支援安裝apk、從電腦安裝recovery卡刷包",
+            "後續將陸續更新、改進更多功能，有任何問題歡迎留言或私訊",
+            "備註：免刷入啟動鏡像需機器支援",
+            "影片1：舊版 log 打印方式為執行完後一次印出",
+            "https://drive.google.com/file/d/1sV6_0qgtEysaPce7EZUOYCU1bb8hNbih/view?usp=sharing",
+            "影片2：新版 log 即時打印",
+            "https://drive.google.com/file/d/1NpcZGPdWRYMUOhFWwYJqHBuoXQH6XE-V/view?usp=sharing"
+        ],
+        "summary": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ]
+    }
+]

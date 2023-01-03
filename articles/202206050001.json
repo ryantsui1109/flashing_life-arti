@@ -1,0 +1,41 @@
+[
+    {
+        "id": "202206050001",
+        "hidden": false,
+        "date": "2022-06-05",
+        "author": "ryantsui1109",
+        "title": "Re:從零開始的刷機生活 02-安卓ROM類型介紹",
+        "tags": [
+            "Re:從零開始的刷機生活"
+        ],
+        "content": [
+            "#Re:從零開始的刷機生活 02",
+            "",
+            "安卓ROM類型介紹",
+            "",
+            "0x00 依發佈者",
+            "第一方：由Google發佈的原生安卓（非pixel手機預裝）",
+            "",
+            "第二方：由OEM廠商發佈，如華碩ZenUI、小米/紅米MIUI、OPPO ColorOS、vivo FuntouchOS等",
+            "",
+            "第三方：非官方ROM，通常由個人或團隊開發者製作，如Havoc OS、ArrowOS、LineageOS等，多為類原生",
+            "",
+            "0x01 依照ROM類型",
+            "原生安卓（AOSP）：Google發佈最原始的安卓，功能最精簡",
+            "",
+            "類原生（AOSP-like）：大致保留原生界面，少量添加功能，如狀態列自定義、鎖定畫面樣式、各類動畫效果修改、各項界面效果修改等原生安卓沒有的功能，如DotOS、Nusantara Project、LineageOS等，部分OEM廠商也預裝類原生系統，如華碩ZenUI、Sony Xperia、HTC sense等",
+            "",
+            "深度客製化：通常由OEM廠商發佈，基於原生安卓大量修改UI，添加廠商獨家功能，如小米/紅米MIUI、OPPO ColorOS、vivo FuntouchOS、三星OneUI等",
+            "",
+            "官改：基於官方ROM修改而成，如 xiaomi.eu （基於MIUI中國版製作，預裝Google服務），兼顧官方ROM的相容性和第三方ROM的便利性",
+            "",
+            "移植ROM：如MIUI、ColorOS、魅族Flyme常被移植到別的機型，如Oneplus可以刷入MIUI、小米手機可以刷入開發者移植的Flyme等"
+        ],
+        "summary": [
+            2,
+            4,
+            5,
+            7
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "202205290001",
+        "hidden": false,
+        "date": "2022-05-29",
+        "author": "ryantsui1109",
+        "title": "Re:從零開始的刷機生活 01-關於刷機",
+        "tags": [
+            "Re:從零開始的刷機生活"
+        ],
+        "content": [
+            "0x00 到底刷機是啥嘞",
+            "刷機（ flash） 就是修改手機的軟體以實現特定功能",
+            "",
+            "0x01 刷機有啥子用嘞",
+            "前述特定功能包括但不限於取得超級使用者（ root） 權限， 安裝第三方系統（ custom / third - party rom / firmware / OS）， 對於如小米 oppo的客製化UI覺得太臃腫、 繁複的可以刷入較精簡的類原生ROM（ AOSP - Like） 甚至原生安卓（ AOSP）， 對於預裝（ 類） 原生安卓的機器（ Sony 華碩 etc.）可以刷入開發者編譯的類原生ROM或移植的客製化ROM",
+            "",
+            "0x02 刷機要準備什麼",
+            "事前準備： 一台電腦、 一台要刷的手機 / 平板（ 如果沒有把握最好不要選主力機）、 一條穩定傳輸的USB線、 足夠的電力、 充足的時間（ 空閒的半天至一天）、 良好的情緒、 不放棄的心",
+            "",
+            "0x03 當手機遇上電腦",
+            "當一台手機連上電腦時， 電腦並無法認得手機， 要與手機通訊， 必須依靠驅動程式（ 依各廠牌不同）",
+            "",
+            "0x04 刷機工具有哪些",
+            "線刷工具：",
+            "陽春： adb and fastboot tool",
+            "基於fastboot： MiFlash MiFlashPro",
+            "針對CPU：",
+            "高通（ 9008）： QPST / QFIL / QPST - emmc software download",
+            "聯發科（ MTK）： SP flash tool",
+            "紫光展銳： SPD Research Download tool",
+            "針對品牌：",
+            "OPPO / Realme flash tool",
+            "LGUP（ LG下載模式）",
+            "Odin（ 三星沒有fastboot， 必須使用下載模式）",
+            "卡刷工具：",
+            "第三方recovery：",
+            "TeamWin Recovery Project（ TWRP）",
+            "基於TWRP：",
+            "OrangeFox Recovery Project（ OFRP）",
+            "PitchBlack Recovery Project（ PBRP）"
+        ],
+        "summary": [
+            0,
+            2,
+            3,
+            5
+        ]
+    }
+]

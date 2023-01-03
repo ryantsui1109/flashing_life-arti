@@ -1,0 +1,30 @@
+[{
+        "id": "202208280001",
+        "hidden": false,
+        "date": "2022-08-28",
+        "author": "ryantsui1109",
+        "title": "Re:從零開始的刷機生活 07-關於GSI",
+        "tags": [
+            "Re:從零開始的刷機生活"
+        ],
+        "content": [
+            "Google在Android 8.0時重新設計了安卓系統的架構（加入了Project Treble），使得系統更新維護更容易",
+            "原本針對硬體的程式碼、執行檔一併打包在系統中，每次更新時必須跟著更新，增加開發人員的工作量",
+            "Projext Treble將系統和針對硬體的部分拆分，更新系統時僅更新系統而不必更新驅動",
+            "利用安卓此特性，即可以製作GSI（Generic System Image），相當於系統而不包含驅動程式，對於沒有device tree的冷門機型，也能裝上第三方ROM",
+            "要注意安裝的GSI必須匹配分區表和位元架構",
+            "分區表：A only、A/B",
+            "與是否為AB分區無關，要看是否為SAR（System-as-root，即直接把system分區掛載到根目錄，另一種方式為降ramdisk作為根目錄，將system分區掛載到/system，此兩種方式的img內容會有不同）",
+            "CPU架構：ARM、A64、ARM64",
+            "ARM：32位CPU，32位系統",
+            "A64：64位CPU，32位系統",
+            "ARM64：64位CPU，64位系統",
+            "注意：錯誤的架構將無法開機"
+        ],
+        "summary": [
+            0,
+            1,
+            2,
+            3
+        ]
+    }]
