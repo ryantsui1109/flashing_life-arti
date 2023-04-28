@@ -1,0 +1,38 @@
+[
+    {
+        "id": "202301010001",
+        "hidden": false,
+        "date": "2023-01-01",
+        "author": "ryantsui1109",
+        "title": "#Re:從零開始的刷機生活 14-關於 Recovery、卡刷包的拆解",
+        "tags": [
+            "Re:從零開始的刷機生活"
+        ],
+        "content": [
+            "關於 Recovery、卡刷包的拆解",
+            "",
+            "卡刷包有兩種格式，AB 分區和非 AB 分區，其中AB分區的格式將所有的檔案壓縮在 payload.bin 中，而 非 AB 分區的檔案，以 partition.new.dat（.br）儲存",
+            "",
+            "payload.bin 的解壓縮：",
+            "1.安裝 python 和 git（建議使用 chocolatey 懶人安裝）",
+            "2.下載解包工具",
+            "輸入指令：",
+            "git clone https://github.com/vm03/payload_dumper",
+            "然後將卡刷包中的 payload.bin 解壓縮至多出來的 payload_dumper 資料夾",
+            "cd payload_dumper",
+            "（將 cmd 工作目錄切換至 payload_dumper）",
+            "python -m pip install -r requirements.txt",
+            "（安裝依賴）",
+            "python .\\payload_dumper.py .\\payload.bin",
+            "",
+            "完成後即可找到從 payload.bin 解壓縮出的各個 img 檔案",
+            "",
+            "*如果報錯無法執行，可以試試看重新安裝 protobuf",
+            "輸入指令：",
+            "pip install protobuf==3.20",
+            "",
+            "之後重新執行即可"
+        ],
+        "summary": [4,5,6,7,8,9,10,11,12,13,14]
+    }
+]
